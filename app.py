@@ -16,7 +16,7 @@ st.set_page_config(layout="wide")
 # ---------------------------------#
 # Title
 
-image = Image.open("image".jpg")
+image = Image.open("image.jpg")
 
 st.image(image, width=500)
 
