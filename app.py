@@ -168,7 +168,6 @@ col2.write(
 col2.dataframe(df_coins)
 
 # Download CSV data
-# https://discuss.streamlit.io/t/how-to-download-file-in-streamlit/1806
 def filedownload(df):
     csv = df.to_csv(index=False)
     b64 = base64.b64encode(csv.encode()).decode()  # strings <-> bytes conversions
