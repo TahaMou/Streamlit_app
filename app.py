@@ -16,6 +16,10 @@ st.set_page_config(layout="wide")
 # ---------------------------------#
 # Title
 
+image = Image.open("image".jpg")
+
+st.image(image, width=500)
+
 st.title("Crypto Price App")
 st.markdown(
     """
